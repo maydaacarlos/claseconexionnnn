@@ -19,7 +19,7 @@ public class conexion {
         try {
             Class.forName("org.postgresql.Driver");
             conectar=DriverManager.getConnection(url,user,password);
-            JOptionPane.showMessageDialog(null,"SE COENCTO CORRECTAMENTE ALA BASE DE DATOS");
+            JOptionPane.showMessageDialog(null,"SE COENCTO CORRECTAMENTE A LA BASE DE DATOS");
       
         }catch (Exception e){
             JOptionPane.showConfirmDialog(null,"ERROR AL CONECTARSE A LA BASE DE DATOS"+e.toString());
